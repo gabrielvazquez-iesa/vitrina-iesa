@@ -119,8 +119,8 @@
 /*-- Variables --*/
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap");
 :root {
-  --color-primary: #2f57ef;
-  --color-secondary: #b966e7;
+  --color-primary: #0A2240;
+  --color-secondary: #811937;
   --color-coral: #E9967A;
   --color-violet: #800080;
   --color-pink: #DB7093;
@@ -13996,7 +13996,7 @@ fieldset:disabled {
   transition: 0.4s;
 }
 .rbt-btn.btn-border-gradient {
-  background: linear-gradient(90deg, #CFA2E8, #637FEA);
+  background: linear-gradient(90deg, #811937, #100000);
   border: none;
   outline: none;
   cursor: pointer;
@@ -17934,7 +17934,7 @@ span.transparent-button:hover i {
 .rbt-badge-2 {
   display: flex;
   align-items: center;
-  background: rgba(226, 213, 252, 0.8);
+  background: #811938;
   box-shadow: 0 12px 22px 0 rgba(214, 191, 242, 0.28);
   padding: 0 20px;
   border: 1px solid #fff;
@@ -17945,7 +17945,7 @@ span.transparent-button:hover i {
   font-weight: 500;
   letter-spacing: -0.5px;
   justify-content: center;
-  color: var(--color-heading);
+  color: #fff;
   width: max-content;
 }
 .rbt-badge-2 img {
@@ -18005,7 +18005,7 @@ span.transparent-button:hover i {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: url(../images/icons/offer-badge-bg-color.svg);
+  background: url(../images/icons/offer-badge-bg-color-01.svg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
